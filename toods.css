@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    background: url('todo.svg');
+    
+
+}
+.Toods{
+font-size: 65px;
+margin: 0;
+display: flex;
+
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: crimson;
+}
+#date{
+    
+   padding-left: 26px;
+   
+    
+}
+.Toods:hover{
+    font-size: 75px;
+    color: crimson;
+    
+
+}
+#date:hover{
+    align-self: center;
+    justify-content: space-evenly;
+}
+#note{
+    height: 80%;
+    width: 50rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left:350px
+
+}
+     
+    
+#note >textarea{
+   
+    border: none;
+    border-color: transparent;
+    
+}
+
+
+  .flex{
+    height: 7%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+   
+    
+  }
+  #text{
+    all: unset;
+    background-color: #F2F2F2;
+    width: 46rem;
+    height: 100%;
+    padding: 0 6px;
+    margin: 0;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    opacity: 0.8;
+    border-bottom: solid gray 1px;
+  }
+ .list{
+    height: 93%;
+    width: 50rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+ }
+ .hove {
+    background-color: #F2F2F2;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    height: 100%;
+    width: 4rem;
+    margin: 0 0;
+    padding: 0 0;
+    border-bottom: solid 1px gray;
+  }
+  
+  .hove:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    color: #F50057;
+  }
+  #todolist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #F2F2F2;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+    z-index: 1;
+    opacity: 0.8;
+  }
+  
+  .task {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    cursor: pointer;
+    color: black;
+    width: 100%;
+    padding-right: 5rem;
+    margin: 5px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            border-bottom: 1px dotted rgb(196, 196, 196);
+  }
+  .list{
+    margin-left: 350px;
+    
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    
+  }
+  .flexers{
+display: flexbox;
+align-items: center;
+justify-content: center;
+position: relative;
+
+  }
